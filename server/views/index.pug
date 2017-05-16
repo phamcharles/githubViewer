@@ -1,0 +1,14 @@
+doctype html
+head
+	meta(charset="UTF-8")
+	title Github Viewer
+
+	link(rel="stylesheet" type="text/css" href=`${locals.bundleCss}`)
+
+
+body
+	div#content.content
+
+	script(type="text/javascript" src=`${locals.manifestJs}`)
+	script(type="text/javascript" src=`${locals.vendorJs}`)
+	script(type="text/javascript" src=`${locals.bundleJs}`)

@@ -1,0 +1,43 @@
+.app-container {
+	padding: 22px 16px;
+	display: flex;
+	flex-direction: row;
+}
+
+.aside-container {
+	flex: 1;
+	min-width: 240px;
+	margin-right: 24px;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+
+.logo-container {
+	margin-bottom: 11px;
+}
+
+.aside-filters-section {
+	
+}
+
+.aside-filter-user {
+	margin-bottom: 6px;
+}
+
+.main-container {
+	flex: 2;
+}
+
+.main-upper-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: 22px;
+}
+
+.main-lower-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
